@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-
+//this is the code for product models
 const productSchema = mongoose.Schema({
     name:{
         type: String,
@@ -13,7 +13,7 @@ const productSchema = mongoose.Schema({
     },
 
     price: {
-        type: Number,
+        type: Numer,
         required: [true, 'Product price is required'],
         default: 0.0,
     },
